@@ -4,7 +4,7 @@ import java.util.Scanner;
  * HandTool class that has one field which is sharpenable.
  *
  * Author Ferhan Ali
- * Date 16/03/2023
+ * Date 16/03/2024
  */
 public class HandTool extends Tool
 {
@@ -26,11 +26,23 @@ public class HandTool extends Tool
         super();
         sharpenable = false;
     }
+    
+
+
+
 
     /**
      * Returns sharpenable
      */
     public boolean getSharpenable()
+    { 
+        return sharpenable;
+    }
+
+     /**
+     * Returns sharpenable
+     */
+    public boolean getSharpenables()
     { 
         return sharpenable;
     }
